@@ -5,6 +5,12 @@
     font-weight: 200;
 }
 
+img {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
 #name {
     color: #42A2E0;
     font-weight: bold;
