@@ -31,7 +31,7 @@
 .right {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     padding-right: 50px;
 }
 
@@ -56,6 +56,35 @@ hr {
     font-family: "Arimo", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    margin: 20px;
     font-weight: bold;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.node,
+.java,
+.c {
+    background: linear-gradient(to right,
+            #42A2E0 0%,
+            #42A2E0 80%,
+            rgb(205, 200, 200)80%,
+            rgb(205, 200, 200) 100%);
+}
+
+.a {
+    background: linear-gradient(to right,
+            #42A2E0 0%,
+            #42A2E0 50%,
+            rgb(205, 200, 200)50%,
+            rgb(205, 200, 200) 100%);
+}
+
+.va {
+    background: linear-gradient(to right,
+            #42A2E0 0%,
+            #42A2E0 30%,
+            rgb(205, 200, 200)30%,
+            rgb(205, 200, 200) 100%);
 }
