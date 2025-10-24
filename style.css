@@ -10,6 +10,12 @@
     font-weight: bold;
 }
 
+hr {
+    background-color: #42A2E0;
+    border: none;
+    height: 4px;
+}
+
 .title {
     font-family: "Arimo", sans-serif;
     font-optical-sizing: auto;
